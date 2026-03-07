@@ -1,9 +1,9 @@
-# CODA: Difficulty-Aware Compute Allocation for Adaptive Reasoning
+# 🎼 CODA: Difficulty-Aware Compute Allocation for Adaptive Reasoning
 
-
+<div align="center">
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org)
 [![HuggingFace](https://img.shields.io/badge/Data&Model-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co) 
-
+</div>
 
 
 CODA (**Co**mpute Allocation by **D**ifficulty **A**wareness) dynamically scales reasoning depth by instance difficulty to eliminate overthinking on easy tasks while incentivizing deep deliberation for complex ones.
