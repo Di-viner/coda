@@ -1,8 +1,10 @@
 # 🎼 CODA: Difficulty-Aware Compute Allocation for Adaptive Reasoning
 
 <div align="center">
+
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org)
 [![HuggingFace](https://img.shields.io/badge/Data&Model-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co) 
+
 </div>
 
 
