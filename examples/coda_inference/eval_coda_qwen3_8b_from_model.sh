@@ -4,17 +4,16 @@ batch_size=128
 n_rollout=16
 max_response_length=16384
 LR=1e-6
-# Base model path (used for tokenizer/processor init)
-model_path=/path/to/model
 
 val_kwargs_n=64
 val_batch_size=128
-# Path to the checkpoint you want to validate
-checkpoint_path=/path/to/ckpt
-ckpt_name=$(basename $(dirname $checkpoint_path))
 
-experiment_name=eval_qwen3_8b
-validation_data_dir=eval/${ckpt_name}
+model_path=/path/to/model
+
+model_name=$(basename "$model_path")
+
+experiment_name=eval_coda_8b_from_model
+validation_data_dir=eval/${model_name}
 
 # For async rollout mode, dataset should return raw chat.
 rollout_mode="async"
@@ -85,6 +84,5 @@ python3 -m verl.trainer.main_validate \
     trainer.n_gpus_per_node=8 \
     trainer.nnodes=1 \
     trainer.validation_data_dir=$validation_data_dir \
-    trainer.resume_mode="resume_path" \
-    trainer.resume_from_path=$checkpoint_path \
+    trainer.resume_mode="disable" \
     $@

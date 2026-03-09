@@ -3,7 +3,7 @@
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org)
-[![HuggingFace](https://img.shields.io/badge/Data&Model-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co) 
+[![HuggingFace](https://img.shields.io/badge/Model-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/collections/Siye01/coda) 
 
 </div>
 
@@ -45,6 +45,12 @@ Please follow the official installation guide:
 
 - [veRL installation docs](https://verl.readthedocs.io/en/latest/start/install.html#install-from-custom-environment)
 
+## Model
+
+Our released CODA models are available on Hugging Face and can be downloaded directly:
+
+- [CODA on Hugging Face](https://huggingface.co/collections/Siye01/coda)
+
 ## Data Preparation
 
 The repository already contains processed datasets under `data/parquet_data/`.
@@ -82,9 +88,11 @@ bash examples/coda_train/train_qwen3_8b.sh
 
 ## Validation / Inference
 
-`eval_qwen3_8b.sh` runs checkpoint validation via `verl.trainer.main_validate`.
+We provide two evaluation modes via `verl.trainer.main_validate`.
 
-Before running, set:
+### 1) Evaluate from checkpoint
+
+Set:
 
 ```bash
 model_path=/path/to/model
@@ -94,7 +102,21 @@ checkpoint_path=/path/to/ckpt
 Run:
 
 ```bash
-bash examples/coda_inference/eval_qwen3_8b.sh
+bash examples/coda_inference/eval_coda_qwen3_8b_from_ckpt.sh
+```
+
+### 2) Evaluate from model
+
+Set:
+
+```bash
+model_path=/path/to/model
+```
+
+Run:
+
+```bash
+bash examples/coda_inference/eval_coda_qwen3_8b_from_model.sh
 ```
 
 ## Metric Calculation
