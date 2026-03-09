@@ -7,7 +7,7 @@ LR=1e-6
 # Base model path (used for tokenizer/processor init)
 model_path=/path/to/model
 
-val_kwargs_n=64
+val_kwargs_n=8
 val_batch_size=128
 # Path to the checkpoint you want to validate
 checkpoint_path=/path/to/ckpt

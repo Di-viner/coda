@@ -5,7 +5,7 @@ n_rollout=16
 max_response_length=16384
 LR=1e-6
 
-val_kwargs_n=64
+val_kwargs_n=8
 val_batch_size=128
 
 model_path=/path/to/model

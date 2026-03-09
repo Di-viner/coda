@@ -76,14 +76,14 @@ model_path=/path/to/model
 
 Scripts:
 
-- `examples/coda_train/train_qwen3_4b.sh`
-- `examples/coda_train/train_qwen3_8b.sh`
-- `examples/coda_train/train_qwen3_14b.sh`
+- `examples/coda_train/train_coda_qwen3_4b.sh`
+- `examples/coda_train/train_coda_qwen3_8b.sh`
+- `examples/coda_train/train_coda_qwen3_14b.sh`
 
 ### 2) Launch training
 
 ```bash
-bash examples/coda_train/train_qwen3_8b.sh
+bash examples/coda_train/train_coda_qwen3_8b.sh
 ```
 
 ## Validation / Inference
