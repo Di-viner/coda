@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org/abs/2603.08659)
 [![HuggingFace](https://img.shields.io/badge/Model-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/collections/Siye01/coda) 
 
 </div>
@@ -132,6 +132,11 @@ python3 verl/trainer/calculate_metrics.py <result_jsonl> --dataset my_data/AIME2
 If our paper or related resources prove valuable to your research, we kindly ask for a citation.
 
 ```bibtex
-
+@article{wu2026coda,
+  title={CODA: Difficulty-Aware Compute Allocation for Adaptive Reasoning},
+  author={Wu, Siye and Xie, Jian and Zhang, Yikai and Xiao, Yanghua},
+  journal={arXiv preprint arXiv:2603.08659},
+  year={2026}
+}
 ```
 
