@@ -16,7 +16,7 @@ CODA (**Co**mpute Allocation by **D**ifficulty **A**wareness) dynamically scales
 
 ## Highlights
 
-- **An optimality framework for difficulty-aware compute allocation.**
+- **An optimality formulation for difficulty-aware compute allocation.**
 - **Dual-gated length shaping from rollout-based difficulty.**
 - **Evidence for genuine, robust adaptiveness.**
 
