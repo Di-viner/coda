@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![Website](https://img.shields.io/badge/Website-CODA-f37024.svg)](https://coda-site.github.io/) 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org/abs/2603.08659)
 [![HuggingFace](https://img.shields.io/badge/Model-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/collections/Siye01/coda) 
 
